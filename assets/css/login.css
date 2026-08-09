@@ -1,0 +1,102 @@
+.login_main{
+        justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 780px;
+        background-color: #efefef;
+    
+}
+.login_from{
+    border: 1px solid black;
+    background-color: #49515b;
+    padding: 0px 20px 0px 20px;
+    box-shadow: 0px 0px 10px 16px #fffefe;
+}
+.login_text{
+    padding-top: 23px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: larger;
+    padding-bottom: 25px;
+}
+.login_user{
+    display: flex;
+    box-shadow: 0px 0px 3px 0px gainsboro;
+     border-radius: 4px;
+    display: flex;
+    width: 93%;
+     margin: 18px 18px 0px 12px;
+}
+.login_user input{
+    border: none;
+    outline: none;
+    background-color: #49515b;
+}
+.login_forgot{
+    padding-left: 176px;
+    padding-top: 6px;
+    color: #e1d6d6db;
+}
+.login_login{
+    margin: 30px 18px 0px 18px;
+    text-align: center;
+    padding: 8px 11px 8px 11px;
+    border-radius: 4px;
+    background-color: #e4ebedb8;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: large;
+    box-shadow: 0px 0px 2px 1px rgb(253, 253, 253);
+}
+.login_user_text{
+    padding-left: 14px;
+    padding: 9px 5px 10px 13px;
+    color: #faf8f8;
+}
+.iconeye{
+    margin-left: 44px;
+    color: #e4ebedb8;
+    font-size: 14px;
+    align-content: center;
+}
+.login_user_icon{
+    background-color: #e4ebedb8;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #ffff;
+}
+.welcome_p{
+    width: 313px;
+    text-align: center;
+    color: gainsboro;
+    padding-bottom: 5px;
+}
+.or_div{
+    text-align: center;
+    padding-top: 43px;
+    color: gainsboro;
+}
+.span_facebook{
+    border: 1px solid gainsboro;
+    padding: 6px 10px 6px 10px;
+    margin: 0px 5px;
+}
+.span_facebook i{
+    color: #faf8f8;
+}
+.span_facebook_main{
+    text-align: center;
+    padding-top: 15px;
+}
+.sign_p{
+    text-align: center;
+    color: #fef7f7;
+    padding-top: 22px;
+}
+.span_sign{
+    color:  #e4ebedb8;
+}

@@ -1,0 +1,165 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.body{
+    position: relative;
+}
+.leftslide{
+    width: 19%;
+    position: absolute; 
+}
+.leftslidetop{
+      display: flex;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 0px 0px 4px #3e3838;
+    background-color:#49515b; 
+}
+.leftslidebutton{
+    width: 100%;
+    height: 680px;
+    overflow-y: scroll;
+    scrollbar-color:rgb(110, 109, 109) #4d555e;
+    scrollbar-width:thin;
+    scroll-behavior: smooth;
+    background-color:#49515b;
+}
+.leftslidimg img{
+    width: 66px;
+    height: 66px;   
+}
+.leftslideadmin{
+     color: #e1e0da;  
+}
+.leftslidediv{
+display: flex;
+font-size: 17px;
+ color: rgb(178, 178, 178);
+ border-bottom: 0.5px solid #58616c;
+ padding: 0px 19px 14px 22px;
+}
+.leftslidediv:hover{
+color: #ededed;
+}
+.leftslide_div_text{
+    margin-left: 23px;
+    list-style: none;
+}
+.leftslid_div_icon{
+    list-style: none;
+}
+hr{
+    color: gray;
+}
+.topslide{
+    width: 79.1%;
+    height: 65px;
+    position: absolute;
+    right: 0px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 13px;
+    /* background-color: #24292f; */
+    box-shadow: 0px 1px 8px 1px #d1d1d1;
+}
+.topslideicon{
+    font-weight: bold;
+    font-size: 20px;
+     padding-right: 24px;
+}
+.topslide_dis{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 31px;
+}
+.topslide_dis_text{
+    /* font-size: 25px; */
+    font-weight:600;
+}
+.topslide_search{
+    display: flex;
+}
+.topslide_dis_image{
+    padding: 0px 12px 0px 12px;
+}
+.topslide_dis_image img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+.search{
+    width: 180px;
+    box-shadow: 0px 0px 2px 0px black;
+    border-radius: 18px;
+    align-content: center;
+    padding-left: 7px;
+    color: #b5b5b5;
+    background-color: #efefef;
+}
+.search i{
+    padding-right: 10px;
+}
+.topslide_dis_icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #c0bdbd;
+    text-align: center;
+    align-content: center; 
+}
+.main{
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+     font-family: sans-serif;
+}
+.bodyslide{
+    width: 80%;
+    height: 700px;
+    position: absolute;
+    top: 82px;
+    right: 0px;
+    background-color:#efefef;
+}
+.main{
+    width: 80%;
+    height: 80%;
+    /* border: 1px solid black; */
+    padding: 2px 31px 55px 31px;
+    box-shadow: 0 0px 8px 0px rgb(196, 191, 191);
+}
+.fillup_input_name{
+padding: 15px 0px 0px 0px;
+ font-weight: 500;
+color: #373333;
+}
+.fillup_input input{
+width: 576px;
+align-content: center;
+margin-top: 12px;
+padding: 8px 0px;
+padding-left: 13px;
+outline: none;
+background-color: #c9c8c82b;
+border: none;
+box-shadow: 0px 0px 2px 0px black;
+}
+.fillup_input{
+    width:879px;
+    display: flex;
+    justify-content: space-between;
+}
+.fillup_from{
+    color: #1a6b7c;
+}
+.button_submit{
+    padding: 8px 20px 8px 20px;
+    margin-top: 44px;
+        font-weight: 600;
+    font-size: large;
+    background-color:#373333 ;
+    color: #ffff;
+    border-radius: 5px;
+}
