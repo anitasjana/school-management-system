@@ -7,12 +7,12 @@
 
     <link rel="stylesheet" href="/employee_managment/assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/admin/form-addusers.css">
-    <!-- <link rel="stylesheet" href="../assets/css/admin/table.css"> -->
+    <!-- <link rel="stylesheet" href="../assets/css/admin/table.css">     -->
     <link rel="stylesheet" href="../assets/css/admin/leave_table.css">
     <!-- <link rel="stylesheet" href="../assets/css/table.css"> -->
     <!-- <link rel="stylesheet" href="../assets/css/admin/leave_table.css"> -->
         <!-- <link rel="stylesheet" href="../assets/css/admin/table.css"> -->
-    <!-- <link rel="stylesheet" href="../assets/css/admin/addusers.css"> -->
+    <link rel="stylesheet" href="../assets/css/admin/addusers.css">
     <!-- <link rel="stylesheet" href="/employee_managment/assets/js/admin/leave_table.js"> -->
 
     <link rel="stylesheet"

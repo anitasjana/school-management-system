@@ -77,7 +77,7 @@ include("../includes/admin_topbar.php");
     </table> 
     </div>
     </div>
-    </div>x
+    </div>
 <script src="../../assets/js/admin/style.js"></script>
 <?php
 include("../includes/footer.php");

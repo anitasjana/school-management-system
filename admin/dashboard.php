@@ -3,15 +3,15 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 include("../includes/auth.php");
-include("../../includes/db.php");
+include("../includes/db.php");
 
 $conect="SELECT COUNT(id)FROM users";
 $data = mysqli_query($con, $conect);
 $row = mysqli_fetch_assoc($data);
 
-include("../../includes/header.php");
-include("../../includes/admin_sidebar.php");
-include("../../includes/admin_topbar.php")
+include("../includes/header.php");
+include("../includes/admin_sidebar.php");
+include("../includes/admin_topbar.php")
 ?>
      <div class="bodyslide" id="bodyslide">
       <div class="dashbord_body">
@@ -52,7 +52,7 @@ include("../../includes/admin_topbar.php")
             </div>
       </div>
      </div>
-<script src="../../assets/js/admin/dashboard.js"></script>
+<script src="../assets/js/admin/dashboard.js"></script>
 <?php
-include("../../includes/footer.php");
+include("../includes/footer.php");
 ?>
