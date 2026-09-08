@@ -20,12 +20,12 @@ $_SESSION["name"] = $v["name"];
 $_SESSION["image"] = $v["image"];
 $_SESSION["type"] = $v["type"];
 
-        header("location:/employee_managment/admin/dashboard/dashboard.php");   
+        header("location:/employee_managment/admin/dashboard.php");   
     }
     else{
         $_SESSION["name"]=$v["name"];
         $_SESSION["image"]=$v["image"];
-        header("location:/employee_managment/employee/dashboard/dashboard.php");
+        header("location:/employee_managment/employee/dashboard.php");
     }
     }
 else { 

@@ -1,0 +1,44 @@
+.bodyslide_form{
+    justify-items: center;
+}
+.main{
+    width: 80%;
+    height: 80%;
+    /* border: 1px solid black; */
+    padding: 2px 31px 55px 31px;
+    justify-items: center;
+    box-shadow: 0 0px 8px 0px rgb(196, 191, 191);
+}
+.fillup_input_name{
+padding: 15px 0px 0px 0px;
+ font-weight: 500;
+color: #373333;
+}
+.fillup_input input{
+width: 576px;
+align-content: center;
+margin-top: 12px;
+padding: 8px 0px;
+padding-left: 13px;
+outline: none;
+background-color: #c9c8c82b;
+border: none;
+box-shadow: 0px 0px 2px 0px black;
+}
+.fillup_input{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fillup_from{
+    color: #1a6b7c;
+}
+.button_submit{
+    padding: 8px 20px 8px 20px;
+    margin-top: 44px;
+        font-weight: 600;
+    font-size: large;
+    background-color:#373333 ;
+    color: #ffff;
+    border-radius: 5px;
+}

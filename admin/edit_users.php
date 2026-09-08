@@ -6,6 +6,7 @@ include("../includes/admin_sidebar.php");
 include("../includes/admin_topbar.php");
 ?>
     <div class="bodyslide" id="bodyslide">
+        <div class="bodyslide_form">
         <div class="main">
             <h3 class="fillup_from">Fill-Up Your From</h3>
             <?php 
@@ -34,6 +35,7 @@ include("../includes/admin_topbar.php");
             </div>
         <button type="submit" class="button_submit">Submit</button>
     </form>
+</div>
 </div>
 </div>
 <script src="../../assets/js/admin/style.js"></script>

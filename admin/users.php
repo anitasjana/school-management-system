@@ -6,6 +6,7 @@ include("../includes/admin_sidebar.php");
 include("../includes/admin_topbar.php");
 ?>
     <div class="bodyslide" id="bodyslide">
+        <div class="bodyslide_table">
         <div class="bodyslide_student">Student Management</div>
         <ul class="bodyul">
             <li class="bodyli">Activity
@@ -88,6 +89,7 @@ include("../includes/admin_topbar.php");
             }
             ?>
     </table>
+    </div>
     </div>
 
 <script>

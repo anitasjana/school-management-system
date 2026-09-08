@@ -1,9 +1,15 @@
+ <?php
+
+include("../includes/config.php");
+// include("../includes/db.php");
+?>
+ 
  <div class="leftslide" id="leftslide">
     <div class="leftslidetop">
       <div class="leftslidimg">
-        <img src="../../assets/images/admin/thr-removebg-preview(1).png" alt="admin" onerror="this.style.display='none'">
+        <img src="<?=BASE_URL?>/assets/images/admin/thr-removebg-preview(1).png" alt="admin" onerror="this.style.display='none'">
       </div>
-      <h2 class="leftslideadmin">Admin</h2>
+      <h2 class="leftslideadmin"><?= ($_SESSION['role'] ?? '') === 'admin' ? 'Admin' : 'Employee' ?></h2>
     </div>
 
     <div class="leftslidebutton">
@@ -11,12 +17,12 @@
       <ul class="nav-list">
         <li><a href="#" class="active"><i class="fas fa-table-columns"></i><span>Dashboard</span></a></li>
       </ul>
-
+    
       <!-- Employee -->
       <div class="nav-category"><span class="line"></span><span>Employee</span><span class="line"></span></div>
       <ul class="nav-list">
-        <li><a href="#"><i class="fas fa-users"></i><span>All Employees</span></a></li>
-        <li><a href="#"><i class="fas fa-user-plus"></i><span>Add Employee</span></a></li>
+        <li><a href="<?= BASE_URL ?>/admin/users.php"><i class="fas fa-users"></i><span>All Employees</span></a></li>
+        <li><a href="<?= BASE_URL ?>/admin/addusers.php"><i class="fas fa-user-plus"></i><span>Add Employee</span></a></li>
       </ul>
 
       <!-- Leave -->

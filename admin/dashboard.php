@@ -14,6 +14,7 @@ include("../../includes/admin_sidebar.php");
 include("../../includes/admin_topbar.php")
 ?>
      <div class="bodyslide" id="bodyslide">
+      <div class="dashbord_body">
         <div class="box" id="">
             <div class="boxup">
                <div class="boxup_text">Total Students</div>
@@ -49,7 +50,7 @@ include("../../includes/admin_topbar.php")
                 <div class="div_display_icon"><i class="fa-solid fa-arrow-down"></i>
                </div>+427</div>
             </div>
-
+      </div>
      </div>
 <script src="../../assets/js/admin/dashboard.js"></script>
 <?php
