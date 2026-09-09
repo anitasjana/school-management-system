@@ -15,7 +15,7 @@ include("../includes/config.php");
     <div class="leftslidebutton">
       <!-- Dashboard -->
       <ul class="nav-list">
-        <li><a href="#" class="active"><i class="fas fa-table-columns"></i><span>Dashboard</span></a></li>
+        <li><a href="<?= BASE_URL ?>/admin/dashboard.php" class="active"><i class="fas fa-table-columns"></i><span>Dashboard</span></a></li>
       </ul>
     
       <!-- Employee -->
@@ -28,9 +28,9 @@ include("../includes/config.php");
       <!-- Leave -->
       <div class="nav-category"><span class="line"></span><span>Leave</span><span class="line"></span></div>
       <ul class="nav-list">
-        <li><a href="#"><i class="fas fa-clock"></i><span>Pending</span></a></li>
-        <li><a href="#"><i class="fas fa-check-circle"></i><span>Approved</span></a></li>
-        <li><a href="#"><i class="fas fa-times-circle"></i><span>Rejected</span></a></li>
+        <li><a href="<?= BASE_URL ?>/admin/pending.php"><i class="fas fa-clock"></i><span>Pending</span></a></li>
+        <li><a href="<?= BASE_URL ?>/admin/approve.php"><i class="fas fa-check-circle"></i><span>Approved</span></a></li>
+        <li><a href="<?= BASE_URL ?>/admin/reject.php"><i class="fas fa-times-circle"></i><span>Rejected</span></a></li>
       </ul>
 
       <!-- Communication -->
@@ -69,7 +69,7 @@ include("../includes/config.php");
         (function(){
             links.forEach(function(link){
                 link.addEventListener('click',function(el){
-                    el.preventDefault();
+                    // el.preventDefault();
                     removeActive();
                     link.classList.add('active');
                 });

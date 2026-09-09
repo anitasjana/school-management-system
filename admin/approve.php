@@ -2,10 +2,11 @@
 include("../includes/auth.php");
 include("../includes/db.php");
 include("../includes/header.php");
-include("../includes/admin_sidebar.php");
-include("../includes/admin_topbar.php");
+include("../includes/sidebar.php");
+include("../includes/topbar.php");
 ?>
     <div class="bodyslide" id="bodyslide">
+        <div class="bodyslide_table">
         <div class="bodyslide_student">List of Employee</div>
     <div class="body_search_display">
         <div class="body_search">
@@ -72,6 +73,7 @@ include("../includes/admin_topbar.php");
     </table> 
     </div>
     </div>
+</div>
 <script src="../../assets/js/admin/style.js"></script>
 <?php
 include("../includes/footer.php");

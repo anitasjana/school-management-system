@@ -1,0 +1,140 @@
+.bodyslide_student{
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: 5px;
+    padding-left: 14px;
+    padding-top: 6px;
+}
+.bodyul{
+    display: flex;
+    list-style: none;
+    padding-left: 13px;
+}
+.bodyli{
+    padding: 7px 12px 7px 12px;
+    border-radius: 3px;
+    margin: 0px 13px 0px 0px;
+    color: #635b5b;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 2px 0px rgb(121, 118, 118);
+    font-weight: 500;
+}
+.bodyli_search{
+    border: 1px solid gray;
+    padding: 7px 32px 7px 32px;
+    border-radius: 10px;
+    background-color: #49515b;
+    color: #fafafa;
+}
+.bodyli_clear{
+    padding: 7px 12px 7px 12px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.body_search_display{
+    display: flex;
+    justify-content: space-between;
+}
+.body_search{
+    width: 204px;
+    height: 33px;
+    box-shadow: 0px 0px 2px 0px rgb(121, 118, 118);
+    border-radius: 3px;
+    align-content: center;
+    color: #6e6868;
+    background-color: #fafafa;
+    padding-left: 13px;
+    margin-left: 13px;
+    margin-top: 18px;
+}
+.body_search_add{
+    display: flex;
+}
+.body_search_student ,.body_search_student_color{
+    padding: 7px 9px 7px 9px;
+    border-radius: 4px;
+    color: #635b5b;
+    background-color: #e4ebedb8;
+    box-shadow: 0px 0px 5px 0px rgb(197, 197, 197);
+    margin: 17px;
+}
+.maintable{
+     border-collapse: collapse;
+     margin-left: 14px;
+}
+.tableth1{
+    font-weight: 600;
+    font-size: 17px;
+    color: #ededed;
+    padding: 12px 89px 12px 15px;
+    font-family: sans-serif;
+}
+.tabletr2 ,.tabletr3{
+    text-align: center;
+    font-size: smaller;
+    font-weight: 600;
+}
+.tabletr1{
+     background-color: #49515b;
+}
+.tabletd{
+    padding: 14px 0px 14px 0px;
+}
+.tabletr3{
+    background-color: #e4ebedb8;
+    box-shadow: 0px 0px 5px 0px rgb(197, 197, 197);
+}
+.tabletr2_active{
+    color: green;
+}
+.tabletr2_inactive{
+    color: red;
+}
+.pending{
+    background-color: #49515b;
+    color: #ededed;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 11px
+}
+.approve{
+    background-color: green;
+    color: #ededed;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 11px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.rejected{
+    background-color: red;
+        color: #ededed;
+        font-weight: bold;
+    font-size: 18px;
+    padding: 12px 11px
+}
+.table{
+    align-content: center;
+    justify-items: center;
+    padding: 30px 0px 0px 0px;
+}
+td button{
+    padding: 5px 7px;
+    font-size: 11px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+.table td .ss{
+    background: rgb(40, 185, 27);
+    margin-right: 5px;
+}
+.table td .ss2{
+    background:rgb(185, 10, 10);
+}
+.php_td{
+    display: flex;
+}
+.request{
+    color: rgb(226, 221, 221);
+}

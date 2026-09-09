@@ -1,5 +1,4 @@
  <div class="topslide" id="topslide">
-      <!-- left: hamburger + search -->
       <div class="topslide_search">
         <div class="topslideicon" id="toggleSidebar">
           <i class="fa-solid fa-bars"></i>

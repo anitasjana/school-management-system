@@ -2,8 +2,8 @@
 include("../includes/auth.php");
 include("../includes/db.php");
 include("../includes/header.php");
-include("../includes/admin_sidebar.php");
-include("../includes/admin_topbar.php");
+include("../includes/sidebar.php");
+include("../includes/topbar.php");
 ?>
     <div class="bodyslide" id="bodyslide">
         <div class="bodyslide_table">

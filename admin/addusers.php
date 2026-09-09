@@ -2,8 +2,8 @@
 include("../includes/auth.php");
 include("../includes/db.php");
 include("../includes/header.php");
-include("../includes/admin_sidebar.php");
-include("../includes/admin_topbar.php");
+include("../includes/sidebar.php");
+include("../includes/topbar.php");
 ?>
     <div class="bodyslide" id="bodyslide">
         <div class="bodyslide_form">
@@ -31,7 +31,7 @@ include("../includes/admin_topbar.php");
     </div>
 </div>
 </div>
-<script src="../../assets/js/admin/style.js"></script>
+
 <?php
 include("../includes/footer.php");
 ?>
