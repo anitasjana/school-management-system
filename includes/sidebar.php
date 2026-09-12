@@ -1,7 +1,8 @@
  <?php
-
-include("../includes/config.php");
+// include("../includes/config.php");
 // include("../includes/db.php");
+// include(__DIR__ . '/config.php');
+require_once __DIR__ . '/config.php';
 ?>
  
  <div class="leftslide" id="leftslide">
@@ -36,7 +37,7 @@ include("../includes/config.php");
       <!-- Communication -->
       <div class="nav-category"><span class="line"></span><span>Communication</span><span class="line"></span></div>
       <ul class="nav-list">
-        <li><a href="#"><i class="fas fa-comment-dots"></i><span>Chat</span></a></li>
+        <li><a href="<?= BASE_URL ?>/admin/chat/chat.php"><i class="fas fa-comment-dots"></i><span>Chat</span></a></li>
       </ul>
 
       <!-- Account -->
