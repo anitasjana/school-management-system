@@ -15,17 +15,20 @@ $v=mysqli_fetch_assoc($r);
 if($c>0){
      if($v['type']==1){
 
-$_SESSION["user_id"] = $v["id"];
-$_SESSION["name"] = $v["name"];
-$_SESSION["image"] = $v["image"];
-$_SESSION["type"] = $v["type"];
+        $_SESSION["user_id"] = $v["id"];
+        $_SESSION["name"] = $v["name"];
+        $_SESSION["image"] = $v["image"];
+        $_SESSION["type"] = $v["type"];
 
         header("location:/employee_managment/admin/dashboard.php");   
     }
     else{
-        $_SESSION["name"]=$v["name"];
-        $_SESSION["image"]=$v["image"];
+         $_SESSION["user_id"] = $v["id"];
+        $_SESSION["name"] = $v["name"];
+        $_SESSION["image"] = $v["image"];
+        $_SESSION["type"] = $v["type"];
         header("location:/employee_managment/employee/dashboard.php");
+        exit();
     }
     }
 else { 

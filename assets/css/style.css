@@ -400,14 +400,25 @@
       .search { min-width: 120px; }
     } */
     /* dashborad_body................................ */
-.bodyslide{
+/* .bodyslide{ */
   /* border: 1px solid black; */
-  width: 80%;
+  /* width: 80%;
   height: 700px;
   position: absolute;
   top: 82px;
   right: 0px;
   background-color: #efefef;
+} */
+
+.bodyslide{ 
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 700px;
+    position: absolute;
+    top: 82px;
+    right: 0px;
+    background-color: #efefef;
+    display: flex;
 }
 .dashbord_body{
   display: flex;
@@ -585,10 +596,7 @@ font-size: 19px;
 .body{
     position: relative;
 }
-.maintable{
-     border-collapse: collapse;
-     margin-left: 14px;
-}
+
 .tableth1{
     font-weight: 600;
     font-size: 14px;
@@ -632,16 +640,6 @@ a{
     margin-left: 25px;
     margin-top:20px;
      box-shadow: 0px 0px 6px grey;
-}
-.bodyslide{
-    /* border: 1px solid black; */
-    width: 80%;
-    height: 700px;
-    position: absolute;
-    top: 82px;
-    right: 0px;
-    background-color: #efefef;
-    display: flex;
 }
 .boxup_bold{
         font-size: 20px;

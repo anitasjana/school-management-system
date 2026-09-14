@@ -17,6 +17,11 @@ a {
     background: #f0f2f6;
     min-height: calc(100vh - 70px);
 } */
+
+.formMiddle{
+    width: 100%;
+    justify-items: center;
+}
 .main {
     max-width: 820px;
     max-height: 438px;
@@ -57,7 +62,9 @@ a {
 }
 .fillup_input input[type="text"],
 .fillup_input input[type="email"],
-.fillup_input input[type="password"] {
+.fillup_input input[type="password"],
+.fillup_input input[type="date"],
+ .fillup_input textarea {
     flex: 1;
     padding: 12px 18px;
     border: 1px solid #dce2ec;
