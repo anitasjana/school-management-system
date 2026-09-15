@@ -15,8 +15,8 @@ include("../includes/topbar.php");
            $q=mysqli_query($con,$idd);
            $row=mysqli_fetch_assoc($q);
             ?>
-        <form action="action_edit_users.php" method="POST" enctype="multipart/form-data">
-            <input type="hidden" name="id" value="1">
+        <form action="action_edit_user.php" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="id" value="<?php echo $row["id"]; ?>">
             <div class="fillup_input">
                 <span class="fillup_input_name">Name :</span>
                 <input type="text" name="name" placeholder="Enter Your Name" value="<?php echo $row["name"];?>">
@@ -39,7 +39,7 @@ include("../includes/topbar.php");
 
             <div class="fillup_input">
                 <span class="fillup_input_name">image :</span>
-                <input type="file" name="file" placeholder="Email Address" value="/employee_managment/uploads/<?php echo $row=["image"];?>">
+                <input type="file" name="img" placeholder="Email Address" value="/employee_managment/uploads/<?php echo $row["image"];?>">
             </div>
 
             <button type="submit" class="button_submit"><i class="fas fa-save"></i> Update</button>

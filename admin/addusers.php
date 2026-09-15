@@ -9,7 +9,9 @@ include("../includes/topbar.php");
         <div class="bodyslide_form">
         <div class="main">
             <h3 class="fillup_from">Fill-Up Your From</h3>
-            <form action="action_addusers.php" method="POST" enctype="multipart/form-data">
+
+            <form action="action_add_user.php" method="POST" enctype="multipart/form-data">
+
             <div class="fillup_input">
                 <span class="fillup_input_name">Name :</span>
                 <input type="text" name="name" placeholder="Enter Your Name">
@@ -27,6 +29,7 @@ include("../includes/topbar.php");
                 <input type="file"  name="img">
             </div>
         <button type="submit" class="button_submit">Submit</button>
+
     </form>
     </div>
 </div>

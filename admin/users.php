@@ -65,8 +65,8 @@ include("../includes/topbar.php");
                 <td><?php echo $row["password"];?></td>
                 <td><img height="80" width="80" src="/employee_managment/uploads/<?php echo $row["image"];?>"></td>
                 <td><?php echo $row["type"];?></td>
-                <td> <a href="edit_users.php ? id=<?php echo $row["id"];?>"><i class="fa-solid fa-pen-to-square"></i></a></td>
-                <td> <a href="delete_users.php ? id=<?php echo $row["id"];?>"><i class="fa-solid fa-trash"></i></a></td>
+                <td> <a href="edit_users.php?id=<?php echo $row["id"];?>"><i class="fa-solid fa-pen-to-square"></i></a></td>
+                <td> <a href="delete_users.php?id=<?php echo $row["id"];?>"><i class="fa-solid fa-trash"></i></a></td>
             </tr>
             <?php
                    $v++;   
