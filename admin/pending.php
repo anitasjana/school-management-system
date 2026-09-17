@@ -46,8 +46,8 @@ include("../includes/topbar.php");
                 <td><?php echo $row["subject"];?></td>
                 <td><?php echo $row["reason"];?></td>
                 <td>
-                <a href="action_approve.php?id=<?php echo $row['id'];?>?"><button class="ss">approve</button> </a>
-                <a href="action_reject.php?id=<?php echo $row['id'];?>?"><button class="ss2">reject</button> </a>
+                <a href="action_approve.php?id=<?php echo $row['id'];?>"><button class="ss">approve</button> </a>
+                <a href="action_reject.php?id=<?php echo $row['id'];?>"><button class="ss2">reject</button> </a>
             </td>
             </tr>
             <?php
@@ -63,8 +63,8 @@ include("../includes/topbar.php");
                 <td><?php echo $row["subject"];?></td>
                 <td><?php echo $row["reason"];?></td>
                  <td>
-                <a href="action_approve.php?id=<?php echo $row['id'];?>?"><button class="ss">approve</button> </a>
-                <a href="action_reject.php?id=<?php echo $row['id'];?>?"><button class="ss2">reject</button> </a>
+                <a href="approve_leave.php?id=<?php echo $row['id'];?>"><button class="ss">approve</button> </a>
+                <a href="action_reject.php?id=<?php echo $row['id'];?>"><button class="ss2">reject</button> </a>
             </td>
              </tr>
              <?php
