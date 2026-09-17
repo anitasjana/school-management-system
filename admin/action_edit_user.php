@@ -1,24 +1,21 @@
 <?php
-
 include("../includes/db.php");
 
-$id = $_POST['id'];
-$name = $_POST['name'];
-$email = $_POST['email'];
-$password = $_POST['password'];
+$a=$_POST['id'];
+$b=$_POST['name'];
+$c=$_POST['email'];
+$d=$_POST['password'];
 
-if ($_FILES['img']['error'] == 0) {
-    $image = $_FILES['img']['name'];
-    move_uploaded_file($_FILES['img']['tmp_name'], "../uploads/".$image);
+if($_FILES['img']['error']==0){
+    $e=$_FILES['img']['name'];
+    move_uploaded_file($_FILES['img']['tmp_name'],"../uploads/".$e);
 
-    $sql = "UPDATE users SET name='$name', email='$email', password='$password', image='$image' WHERE id='$id'";
-} else {
-    $sql = "UPDATE users SET name='$name', email='$email', password='$password' WHERE id='$id'";
+    $sql="UPDATE users SET name='$b',email='$c',password='$d',image='$e' WHERE id='$a'";
+}else{
+    $sql="UPDATE users SET name='$b',email='$c',password='$d' WHERE id='$a'";
 }
 
-mysqli_query($con, $sql);
-
-header("Location: users.php");
+mysqli_query($con,$sql);
+header("location:users.php");
 exit();
-
 ?>

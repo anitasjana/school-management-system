@@ -28,8 +28,8 @@ include("../includes/topbar.php");
                 <input type="text" placeholder="total day" name="sub">
             </div>
              <div class="fillup_input">
-                <span class="fillup_input_name">reason :</span>
-                <textarea type="text" placeholder="reason" name="name"></textarea>
+                <span class="fillup_input_name"  >reason :</span>
+                <textarea type="text" placeholder="reason" name="reason"></textarea>
                 <!-- <textarea="text" placeholder="reason" name="reason"> -->
             </div>
 
